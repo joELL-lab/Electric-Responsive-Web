@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="#090a0c">
+        <meta name="description" content="Explore a considered collection of electric cars and performance vehicles.">
+        <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <title>ELECAR — Electric Performance</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <div class="nav container">
+                <a class="brand" href="#home" aria-label="Elecar home"><span class="brand__mark">E</span> ELECAR</a>
+                <nav class="nav__menu" aria-label="Main navigation">
+                    <a class="nav__link nav__link--active" href="#home">Home</a>
+                    <a class="nav__link" href="#about">About</a>
+                    <a class="nav__link" href="#popular">Popular</a>
+                    <a class="nav__link" href="#featured">Featured</a>
+                </nav>
+                <a class="nav__cta" href="#booking">Book a test drive <span aria-hidden="true">↗</span></a>
+            </div>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__content container">
+                    <div class="home__eyebrow"><span class="status-dot"></span> The future, in motion</div>
+                    <h1 class="home__title">Choose the <span>best car.</span></h1>
+                    <p class="home__model">Porsche Mission E <span class="home__electric">✦ Electric car</span></p>
+                    <div class="home__visual">
+                        <div class="home__halo"></div>
+                        <img class="home__img" src="img/home.png" alt="White electric sports car viewed from the front">
+                        <span class="home__serial">01 <i></i> 05</span>
+                    </div>
+                    <div class="home__stats" aria-label="Vehicle specifications">
+                        <div class="stat"><span class="stat__icon" aria-hidden="true">°</span><strong>24°</strong><small>Temperature</small></div>
+                        <div class="stat"><span class="stat__icon" aria-hidden="true">KM</span><strong>873</strong><small>Mileage</small></div>
+                        <div class="stat"><span class="stat__icon" aria-hidden="true">ϟ</span><strong>94%</strong><small>Battery</small></div>
+                    </div>
+                    <a class="start-button" href="#about"><span>Start</span></a>
+                    <a class="home__scroll" href="#about"><span class="scroll-line"></span> Scroll to discover</a>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <div class="about__content container">
+                    <div class="about__visual">
+                        <img src="img/about.png" alt="Premium electric car interior and cockpit">
+                        <div class="about__badge"><strong>2,500<span>+</span></strong><small>Charging stations<br>across the country</small></div>
+                    </div>
+                    <div class="about__copy">
+                        <span class="eyebrow">Designed around you</span>
+                        <h2>Machines with<br>future technology.</h2>
+                        <p>See the future with high-performance electric cars produced by renowned brands. Thoughtful design, intelligent technology and a drive that feels entirely new.</p>
+                        <a class="button" href="#popular">Know more <span aria-hidden="true">↗</span></a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== POPULAR ====================-->
+            <section class="popular section" id="popular">
+                <div class="container">
+                    <div class="section-heading">
+                        <span class="eyebrow">Made to move you</span>
+                        <h2 class="section__title">Choose your electric car<br>of the future</h2>
+                    </div>
+                    <div class="popular__grid">
+                        <article class="car-card">
+                            <div><h3>Tesla Model S</h3><p>Performance</p></div>
+                            <img src="img/popular1.png" alt="Red Tesla Model S">
+                            <div class="car-card__details"><span>↗ 3.1 sec</span><span>⌁ 396 km</span><span>ϟ Electric</span></div>
+                            <div class="car-card__bottom"><strong>$75,900</strong><a href="#featured" aria-label="Explore Tesla Model S">↗</a></div>
+                        </article>
+                        <article class="car-card">
+                            <div><h3>Audi e-tron</h3><p>Adventure</p></div>
+                            <img src="img/popular2.png" alt="Audi e-tron electric SUV">
+                            <div class="car-card__details"><span>↗ 5.5 sec</span><span>⌁ 300 km</span><span>ϟ Electric</span></div>
+                            <div class="car-card__bottom"><strong>$82,400</strong><a href="#featured" aria-label="Explore Audi e-tron">↗</a></div>
+                        </article>
+                        <article class="car-card">
+                            <div><h3>Porsche Taycan</h3><p>Turbo S</p></div>
+                            <img src="img/popular3.png" alt="Blue Porsche Taycan">
+                            <div class="car-card__details"><span>↗ 2.8 sec</span><span>⌁ 390 km</span><span>ϟ Electric</span></div>
+                            <div class="car-card__bottom"><strong>$98,700</strong><a href="#featured" aria-label="Explore Porsche Taycan">↗</a></div>
+                        </article>
+                        <article class="car-card">
+                            <div><h3>Porsche Panamera</h3><p>Executive</p></div>
+                            <img src="img/popular4.png" alt="Black Porsche Panamera">
+                            <div class="car-card__details"><span>↗ 3.4 sec</span><span>⌁ 340 km</span><span>ϟ Hybrid</span></div>
+                            <div class="car-card__bottom"><strong>$91,500</strong><a href="#featured" aria-label="Explore Porsche Panamera">↗</a></div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== FEATURES ====================-->
+            <section class="features section">
+                <div class="container features__content">
+                    <div class="features__copy"><span class="eyebrow">Power without compromise</span><h2>Built for the<br>open road.</h2><p>Intuitive electric performance, engineered to take you further.</p><a class="text-link" href="#featured">Discover the details <span aria-hidden="true">↗</span></a></div>
+                    <div class="features__image"><img src="img/features.png" alt="Top-down view of an electric performance car"><div class="range-pin range-pin--top"><strong>800<span>V</span></strong><small>Turbo<br>charging</small></div><div class="range-pin range-pin--bottom"><strong>480<span>km</span></strong><small>Travel<br>range</small></div></div>
+                </div>
+            </section>
+
+            <!--==================== FEATURED ====================-->
+            <section class="featured section" id="featured">
+                <div class="container">
+                    <div class="section-heading"><span class="eyebrow">The collection</span><h2 class="section__title">Featured luxury cars</h2></div>
+                    <div class="featured__filters" aria-label="Vehicle categories"><a class="filter filter--active" href="#featured">All</a><a class="filter" href="#featured">Electric</a><a class="filter" href="#featured">Porsche</a><a class="filter" href="#featured">Audi</a></div>
+                    <div class="featured__grid">
+                        <article class="featured-card"><span class="featured-card__type">Electric</span><h3>Taycan</h3><p>Turbo S</p><img src="img/featured1.png" alt="White Porsche Taycan"><div class="featured-card__price"><strong>$114,900</strong><a href="#contact" aria-label="Ask about Taycan">↗</a></div></article>
+                        <article class="featured-card"><span class="featured-card__type">Electric</span><h3>Taycan</h3><p>Cross Turismo</p><img src="img/featured2.png" alt="Black Porsche Taycan"><div class="featured-card__price"><strong>$106,700</strong><a href="#contact" aria-label="Ask about Cross Turismo">↗</a></div></article>
+                        <article class="featured-card"><span class="featured-card__type">Electric</span><h3>Mission E</h3><p>Performance</p><img src="img/featured3.png" alt="White Porsche Mission E"><div class="featured-card__price"><strong>$125,000</strong><a href="#contact" aria-label="Ask about Mission E">↗</a></div></article>
+                        <article class="featured-card"><span class="featured-card__type">Hybrid</span><h3>718 Boxster</h3><p>Roadster</p><img src="img/featured4.png" alt="Black Porsche 718 Boxster"><div class="featured-card__price"><strong>$88,400</strong><a href="#contact" aria-label="Ask about 718 Boxster">↗</a></div></article>
+                        <article class="featured-card"><span class="featured-card__type">Electric</span><h3>Taycan</h3><p>Sport Edition</p><img src="img/featured5.png" alt="Blue Porsche Taycan"><div class="featured-card__price"><strong>$119,500</strong><a href="#contact" aria-label="Ask about Sport Edition">↗</a></div></article>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== BOOKING ====================-->
+            <section class="booking section" id="booking">
+                <div class="container booking__content">
+                    <div class="booking__intro">
+                        <span class="eyebrow">Your next drive starts here</span>
+                        <h2>Book your<br>test drive.</h2>
+                        <p>Choose a car and a time that works for you. Our team will get in touch to confirm your appointment.</p>
+                        <div class="booking__note"><span aria-hidden="true">↗</span> Personal response within one business day</div>
+                    </div>
+                    <form class="booking-form" action="mailto:hello@elecar.example" method="post" enctype="text/plain">
+                        <div class="booking-form__field">
+                            <label for="booking-name">Full name</label>
+                            <input id="booking-name" name="name" type="text" autocomplete="name" placeholder="Your name" required>
+                        </div>
+                        <div class="booking-form__field">
+                            <label for="booking-email">Email address</label>
+                            <input id="booking-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
+                        </div>
+                        <div class="booking-form__field">
+                            <label for="booking-phone">Phone number</label>
+                            <input id="booking-phone" name="phone" type="tel" autocomplete="tel" placeholder="+1 555 000 0000" required>
+                        </div>
+                        <div class="booking-form__field">
+                            <label for="booking-car">Choose a car</label>
+                            <select id="booking-car" name="car" required>
+                                <option value="" disabled selected>Select a model</option>
+                                <option value="Porsche Taycan">Porsche Taycan</option>
+                                <option value="Porsche Mission E">Porsche Mission E</option>
+                                <option value="Audi e-tron">Audi e-tron</option>
+                                <option value="Tesla Model S">Tesla Model S</option>
+                                <option value="Porsche 718 Boxster">Porsche 718 Boxster</option>
+                            </select>
+                        </div>
+                        <div class="booking-form__field booking-form__field--wide">
+                            <label for="booking-date">Preferred date</label>
+                            <input id="booking-date" name="date" type="date" required>
+                        </div>
+                        <div class="booking-form__field booking-form__field--wide">
+                            <label for="booking-message">Anything else? <span>(optional)</span></label>
+                            <textarea id="booking-message" name="message" rows="3" placeholder="Tell us what you'd like to know"></textarea>
+                        </div>
+                        <button class="booking-form__submit" type="submit">Request a test drive <span aria-hidden="true">↗</span></button>
+                        <p class="booking-form__disclaimer">Submitting opens your email app to send this request.</p>
+                    </form>
+                </div>
+            </section>
+
+            <!--==================== OFFER ====================-->
+            <section class="offer section">
+                <div class="container offer__content">
+                    <div class="offer__copy"><span class="eyebrow">A new kind of freedom</span><h2>Electric looks<br>good on you.</h2><p>Make every journey a little more extraordinary. Find your next drive in our curated collection.</p><a class="button" href="#booking">Book a test drive <span aria-hidden="true">↗</span></a></div>
+                    <img src="img/offer.png" alt="White electric sports car ready for the road">
+                </div>
+            </section>
+
+            <!--==================== LOGOS ====================-->
+            <section class="logos section">
+                <div class="container logos__row" aria-label="Available vehicle brands">
+                    <img src="img/logo1.png" alt="Tesla"><img src="img/logo2.png" alt="Audi"><img src="img/logo3.png" alt="Porsche"><img src="img/logo4.png" alt="Lamborghini"><img src="img/logo5.png" alt="BMW"><img src="img/logo6.png" alt="Mitsubishi">
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="container footer__content" id="contact">
+                <div class="footer__brand"><a class="brand" href="#home"><span class="brand__mark">E</span> ELECAR</a><p>Move forward. Drive electric.</p></div>
+                <div class="footer__column"><h3>Explore</h3><a href="#about">About us</a><a href="#popular">Popular cars</a><a href="#featured">Featured</a><a href="#booking">Book a test drive</a></div>
+                <div class="footer__column"><h3>Contact</h3><a href="mailto:hello@elecar.example">hello@elecar.example</a><a href="tel:+18005550124">+1 800 555 0124</a></div>
+                <p class="footer__copyright">© 2025 ELECAR. All rights reserved.</p>
+            </div>
+        </footer>
+    </body>
+</html>
